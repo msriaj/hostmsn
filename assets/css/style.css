@@ -470,3 +470,138 @@ nav .dropdown-menu li {
     color: #fff;
 }
 /* ||Price Card Css End|| */
+
+/* Questions Css Start */
+#questions {
+    background: var(--prime-color);
+}
+#questions .qst_container {
+    border: 5px solid #562dd4;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+#questions .qst_container .qst_item {
+    background: #562dd4;
+    color: var(--prime-color);
+    padding: 40px;
+}
+#questions .qst_item h4 {
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 80px;
+    padding-bottom: 20px;
+}
+#questions .qst_item p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+#questions .qst_item .qst_btn a {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: var(--prime-color);
+    border: 2px solid var(--prime-color);
+    transition: var(--first-transition);
+}
+#questions .qst_item .qst_btn a:hover {
+    background: var(--prime-color);
+    color: var(--regular-font-color);
+}
+/* ||Questions Css End|| */
+
+/* Contact Css Start */
+#contact {
+    background: url(../images/congruent_outline.png);
+    padding-bottom: 80px;
+    color: var(--prime-color);
+}
+#contact svg path {
+    fill: var(--prime-color);
+}
+
+#contact .row {
+    padding-top: 50px;
+}
+
+#contact .contact_text i {
+    font-size: 50px;
+}
+#contact .contact_text h5 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 25px;
+}
+#contact .contact_text p {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 50%);
+    padding-top: 20px;
+    font-style: italic;
+}
+
+#contact .contact_form form {
+    display: grid;
+    gap: 20px;
+}
+#contact .contact_form .form_item label {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 60%);
+    padding-bottom: 10px;
+}
+#contact .contact_form .form_item label span {
+    color: red;
+}
+#contact .contact_form .form_item input {
+    width: 100%;
+    padding: 14px 20px;
+    background: var(--prime-color);
+    color: var(--regular-font-color);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+#contact .contact_form .form_item input:focus-visible,
+#contact .contact_form .form_item textarea:focus-visible {
+    outline: none;
+}
+#contact .contact_form .form_item textarea {
+    width: 100%;
+    height: 150px;
+    padding: 14px 20px;
+    background: var(--prime-color);
+    color: var(--regular-font-color);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+#contact .contact_form .form_btn a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--prime-color);
+    background: #d92e77;
+    padding: 14px 30px;
+    border-radius: 30px;
+    transition: var(--first-transition);
+    letter-spacing: 1px;
+}
+
+#contact .contact_form .form_btn a:hover {
+    background: var(--prime-color);
+    color: var(--regular-font-color);
+}
+/* ||Contact Css End|| */
+
+footer {
+    padding: 10px 0;
+    font-size: 14px;
+    color: var(--regular-font-color);
+}
