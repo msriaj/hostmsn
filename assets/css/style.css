@@ -523,6 +523,9 @@ nav .dropdown-menu li {
 #contact svg path {
     fill: var(--prime-color);
 }
+#contact.privacy_footer svg path {
+    fill: #f5f5f5;
+}
 
 #contact .row {
     padding-top: 50px;
@@ -604,4 +607,26 @@ footer {
     padding: 10px 0;
     font-size: 14px;
     color: var(--regular-font-color);
+}
+
+/* ===============
+Privacy Page
+================ */
+#privacy {
+    padding: 100px 0;
+}
+#privacy h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-bottom: 20px;
+    color: var(--regular-font-color);
+    text-align: center;
+}
+#privacy p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--secondary-font-color);
+    padding-bottom: 20px;
 }
