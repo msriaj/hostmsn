@@ -1,0 +1,374 @@
+/* Google Font- "Poppins" */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500&display=swap");
+
+/* ||Common Css Start|| */
+body {
+    font-family: "Hind Siliguri", sans-serif;
+    background: #f5f5f5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+:root {
+    /*color*/
+    --focus-color: #ad5334;
+    --prime-color: #fff;
+    /*transition*/
+    --first-transition: all 0.3s linear;
+    --slow-transition: all 0.4s linear;
+    /*font*/
+    --regular-font-color: #242424;
+    --secondary-font-color: #718096;
+}
+
+/* button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+} */
+/* ||Common Css End|| */
+
+/* Nav bar Css Start */
+nav {
+    background: #fff;
+    padding: 220px 0;
+}
+nav .container-fluid {
+    background: #fff;
+    padding: 10px 0;
+}
+nav .navbar-brand img {
+    width: 140px;
+}
+nav ul {
+    width: 100%;
+    justify-content: flex-end;
+    display: grid;
+}
+nav .nav-item {
+    padding: 0 10px;
+}
+nav .nav-item a {
+    color: var(--secondary-font-color);
+    font-size: 16px;
+    font-weight: 500;
+    transition: var(--first-transition);
+}
+nav .nav-item a:hover {
+    color: var(--focus-color);
+}
+nav .dropdown-menu {
+    width: fit-content;
+}
+nav .dropdown-menu li {
+    display: block;
+}
+/* ||Nav bar Css End|| */
+
+/* Banner Css Start */
+#banner {
+    padding-top: 100px;
+}
+
+#banner h1 {
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 90px;
+    color: var(--regular-font-color);
+}
+#banner h1 span {
+    font-size: 64px;
+    color: var(--focus-color);
+}
+#banner svg {
+    rotate: 180deg;
+}
+#banner svg .elementor-shape-fill {
+    fill: #ffffff;
+}
+#banner .bg_bottom_color {
+    background-color: #ffffff;
+    height: 36px;
+    margin-top: -1px;
+}
+/* ||Banner Css End|| */
+
+/* Cards Css Start */
+#cards {
+    padding: 50px 0 30px 0;
+}
+#cards .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    row-gap: 50px;
+}
+#cards .card-item {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 13px -4px rgba(0, 0, 0, 0.21);
+}
+#cards .card-item i {
+    font-size: 50px;
+    color: #7143ff;
+}
+#cards .card-item h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--regular-font-color);
+    padding-top: 24px;
+    padding-bottom: 10px;
+}
+#cards .card-item p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: var(--secondary-font-color);
+}
+
+#cards svg {
+    margin-top: 15px;
+    height: 40px;
+    width: 100%;
+}
+#cards svg path {
+    fill: rgba(113, 128, 150, 10%);
+}
+/* ||Cards Css End|| */
+
+/* Reviews Css Start */
+#reviews {
+    background-color: transparent;
+    background-image: linear-gradient(140deg, #ed4e7d 0%, #7028ed 100%);
+    padding: 100px 0;
+    color: #fff;
+}
+
+#reviews .reviews_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    justify-content: center;
+}
+#reviews .reviews_container i {
+    font-size: 50px;
+}
+#reviews .reviews_container h3 {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 14px 0;
+}
+#reviews .reviews_container h6 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 50%);
+    letter-spacing: 1px;
+}
+
+#reviews img {
+    height: 420px;
+}
+/* ||Reviews Css End|| */
+
+/* Experience Css Start */
+#exp {
+    padding: 50px 0;
+    background: #fff;
+}
+#experience svg path {
+    fill: rgba(74, 85, 104, 10%);
+}
+
+#experience .experience-items {
+    margin-top: -50px;
+}
+#experience .exp-container {
+    padding: 0 50px;
+    display: grid;
+    gap: 20px;
+}
+#experience .exp-item {
+    position: relative;
+    padding: 5px 15px;
+    background: rgba(74, 85, 104, 10%);
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    z-index: 1;
+}
+#experience .exp-item:before {
+    content: "";
+    position: absolute;
+    text-align: right;
+    display: grid;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    padding-right: 15px;
+    z-index: -1;
+    border-radius: 5px;
+}
+#experience .exp-item.one::before {
+    content: "95%";
+    width: 95%;
+    background: #6830c8;
+}
+#experience .exp-item.two::before {
+    content: "100%";
+    width: 100%;
+    background: #e2498a;
+}
+#experience .exp-item.three::before {
+    content: "90%";
+    width: 90%;
+    background: #c37bf6;
+}
+#experience .exp-item.four::before {
+    content: "95%";
+    width: 95%;
+    background: #13c3ca;
+}
+#experience .exp-item.five::before {
+    content: "95%";
+    width: 95%;
+    background: #86c33f;
+}
+
+#experience .exp-item p {
+    font-size: 12px;
+    color: #fff;
+}
+
+#experience .exp-text {
+    padding: 0 50px;
+}
+#experience h2 {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 90px;
+    color: #945df3;
+}
+#experience h6 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--regular-font-color);
+    padding: 20px 0;
+}
+#experience p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--secondary-font-color);
+}
+/* ||Experience Css End|| */
+
+/* Founder Intro Css Start */
+#announcement {
+    background: #f9f9f9;
+}
+#announcement svg {
+    height: 80px;
+    width: 100%;
+}
+#announcement svg path {
+    fill: rgba(113, 128, 150, 10%);
+}
+#announcement i {
+    margin-top: -40px;
+    font-size: 120px;
+    color: var(--secondary-font-color);
+    margin-bottom: 50px;
+}
+
+#founder {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#founder .founder-intro {
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    height: 100%;
+    box-shadow: 0px 2px 13px -4px rgba(0, 0, 0, 0.21);
+}
+#founder .founder-intro i.fa-user-tie {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 50%;
+    background: #13c3ca;
+    color: #fff;
+}
+#founder .founder-intro h4 {
+    font-size: 18px;
+    font-weight: 400px;
+    color: var(--regular-font-color);
+    padding-top: 20px;
+}
+#founder .founder-intro h6 {
+    font-size: 15px;
+    font-weight: 400px;
+    color: var(--secondary-font-color);
+    padding: 10px 0;
+}
+#founder .founder-intro a {
+    font-size: 12px;
+    font-weight: 400px;
+    color: var(--prime-color);
+    background: #945df3;
+    padding: 2px 8px;
+    border-radius: 15px;
+}
+#founder .founder-intro p {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 28px;
+    color: 4a5568;
+    padding-top: 10px;
+    font-style: italic;
+}
+#founder svg {
+    position: relative;
+    margin-top: -140px;
+    rotate: 180deg;
+    z-index: -1;
+}
+#founder svg .elementor-shape-fill {
+    fill: #f9f9f9;
+}
+#founder .bg_bottom_color {
+    background-color: #f9f9f9;
+    height: 70px;
+    margin-top: -1px;
+}
+/* ||Founder Intro Css End|| */
