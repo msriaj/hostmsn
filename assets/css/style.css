@@ -372,3 +372,101 @@ nav .dropdown-menu li {
     margin-top: -1px;
 }
 /* ||Founder Intro Css End|| */
+
+/* Price Card Css Start */
+#price {
+    padding: 50px 0;
+}
+#price .price-item {
+    padding: 40px;
+    background: var(--prime-color);
+    border-radius: 8px;
+    box-shadow: 0px 2px 13px -4px rgba(0, 0, 0, 0.21);
+    color: var(--regular-font-color);
+}
+#price .price-item.item_center {
+    background-color: transparent;
+    background-image: linear-gradient(320deg, #6a4dd6 0%, #f73b93 100%);
+    color: var(--prime-color);
+}
+#price .price-item i.fa-server {
+    font-size: 50px;
+    color: #945df3;
+}
+#price .price-item i.fa-car {
+    font-size: 50px;
+    color: #81c653;
+}
+#price .price-item i.fa-motorcycle {
+    font-size: 50px;
+    color: var(--prime-color);
+}
+#price .price-item h5 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 10px 0;
+}
+#price .price-item h4 {
+    font-size: 60px;
+    font-weight: 600;
+}
+#price .price-item span {
+    font-size: 24px;
+    padding-right: 2px;
+}
+#price .price-item h6 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 0;
+    color: var(--secondary-font-color);
+}
+#price .price-item.item_center h6 {
+    color: var(--prime-color);
+}
+#price .price-item .features {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+#price .price-item .features i {
+    font-weight: 600;
+}
+#price .price-item .features p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#price .price-item .features.add_title p {
+    border-bottom: 1px dotted var(--secondary-font-color);
+}
+#price .price-item.item_center .features.add_title p {
+    border-bottom: 1px dotted var(--prime-color);
+}
+#price .price-item .features_btn a {
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--regular-font-color);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #e6e6e6;
+    transition: var(--first-transition);
+    letter-spacing: 1px;
+}
+
+#price .price-item.item_center .features_btn a {
+    background: var(--prime-color);
+    color: var(--regular-font-color);
+    border: 1px solid var(--prime-color);
+}
+
+#price .price-item .features_btn a:hover {
+    background: #d92e77;
+    border: 1px solid #d92e77;
+    color: #fff;
+}
+/* ||Price Card Css End|| */
