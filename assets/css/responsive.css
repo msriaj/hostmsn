@@ -1,0 +1,66 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Nav bar responsive */
+    nav .navbar-brand img {
+        width: 120px;
+    }
+    nav .nav-item {
+        padding: 0 5px;
+    }
+    nav .nav-item a {
+        font-size: 14px;
+    }
+    /* Banner responsive */
+    #banner {
+        padding-top: 100px;
+    }
+    #banner h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    #banner h1 span {
+        font-size: 50px;
+    }
+    /* Card responsive */
+    #cards .card-item {
+        padding: 20px;
+    }
+    #cards .card-item i {
+        font-size: 40px;
+    }
+    #cards .card-item h4 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    #cards .card-item p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    /* Experience responsive */
+    #experience .experience-items {
+        margin-top: 0px;
+    }
+    #experience .exp-container,
+    #experience .exp-text {
+        padding: 0 20px;
+    }
+    #experience h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    #experience h6 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    /* Price Card responsive */
+    #price .price-item {
+        padding: 30px;
+    }
+    #questions .qst_item h4 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    #questions .qst_item p {
+        font-size: 20px;
+    }
+    /* Questions responsive */
+}
