@@ -55,6 +55,7 @@
     #price .price-item {
         padding: 30px;
     }
+    /* Questions responsive */
     #questions .qst_item h4 {
         font-size: 50px;
         line-height: 70px;
@@ -62,5 +63,271 @@
     #questions .qst_item p {
         font-size: 20px;
     }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Banner responsive */
+    #banner {
+        padding-top: 90px;
+    }
+    #banner h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    #banner h1 span {
+        font-size: 40px;
+    }
+    #banner img {
+        height: 300px;
+    }
+    #banner .banner_btn a {
+        padding: 10px 25px;
+        font-size: 13px;
+    }
+    #banner .banner_btn a.video_btn::before {
+        font-size: 11px;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        right: -12px;
+    }
+    /* Cards responsive */
+    #cards .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    /* Experience responsive */
+    #experience .experience-items {
+        margin-top: 0px;
+    }
+    #experience .exp-container,
+    #experience .exp-text {
+        padding: 0 15px;
+    }
+    #experience h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #experience h6 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    #experience p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    /* Price Card responsive */
+    #price .price-item {
+        height: 100%;
+    }
     /* Questions responsive */
+    #questions img {
+        width: 220px;
+    }
+    #questions .qst_item h4 {
+        font-size: 30px;
+        line-height: 60px;
+        padding-bottom: 12px;
+    }
+    #questions .qst_item p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Banner responsive */
+    #banner {
+        padding-top: 90px;
+    }
+    #banner h1 {
+        font-size: 50px;
+        text-align: center;
+        line-height: 70px;
+    }
+    #banner h1 span {
+        font-size: 40px;
+    }
+    #banner img {
+        height: 300px;
+    }
+    #banner .banner_btn {
+        justify-content: center;
+        padding: 20px 0;
+    }
+    #banner .banner_btn a {
+        padding: 10px 25px;
+        font-size: 13px;
+    }
+    #banner .banner_btn a.video_btn::before {
+        font-size: 11px;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        right: -12px;
+    }
+    /* Cards responsive */
+    #cards .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    #cards .card-item {
+        padding: 20px;
+    }
+    #cards .card-item i {
+        font-size: 40px;
+    }
+    #cards .card-item h4 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    #cards .card-item p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    /* Experience responsive */
+    #experience .experience-items {
+        margin-top: 0px;
+    }
+    #experience .exp-container,
+    #experience .exp-text {
+        padding: 0 15px;
+    }
+    #experience h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #experience h6 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    #experience p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    /* Price Card responsive */
+    #price .price-item {
+        height: 100%;
+        padding: 20px;
+    }
+    /* Questions responsive */
+    #questions .qst_container {
+        grid-template-columns: 1fr;
+    }
+    #questions .qst_item h4 {
+        font-size: 30px;
+        line-height: 60px;
+        padding-bottom: 12px;
+    }
+    #questions .qst_item p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 575.98px) {
+    /* Nav bar responsive */
+    nav {
+        padding: 0 15px;
+    }
+    nav .navbar-brand img {
+        width: 110px;
+    }
+    /* Banner responsive */
+    #banner {
+        padding-top: 90px;
+    }
+    #banner h1 {
+        font-size: 45px;
+        text-align: center;
+        line-height: 50px;
+    }
+    #banner h1 span {
+        font-size: 35px;
+    }
+    #banner .banner_btn {
+        justify-content: center;
+        padding: 20px 0;
+    }
+    #banner .banner_btn a {
+        padding: 10px 25px;
+        font-size: 13px;
+    }
+    #banner .banner_btn a.video_btn::before {
+        font-size: 11px;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        right: -12px;
+    }
+    /* Cards responsive */
+    #cards .cards-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    #cards .card-item {
+        padding: 20px;
+    }
+    #cards .card-item i {
+        font-size: 40px;
+    }
+    #cards .card-item h4 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    #cards .card-item p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    /* Reviews responsive */
+    #reviews {
+        padding: 50px 0;
+    }
+    /* Experience responsive */
+    #experience .experience-items {
+        margin-top: 0px;
+    }
+    #experience .exp-container,
+    #experience .exp-text {
+        padding: 0 10px;
+    }
+    #experience h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #experience h6 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    #experience p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    /* Founder Intro responsive */
+    #announcement i {
+        margin-top: -20px;
+        font-size: 100px;
+    }
+    /* Questions responsive */
+    #questions {
+        padding-bottom: 20px;
+    }
+    #questions .qst_container {
+        grid-template-columns: 1fr;
+    }
+    #questions img {
+        width: 180px;
+    }
+    #questions .qst_container .qst_item {
+        padding: 20px;
+    }
+    #questions .qst_item h4 {
+        font-size: 30px;
+        line-height: 60px;
+        padding-bottom: 12px;
+    }
+    #questions .qst_item p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    #questions .qst_item .qst_btn a {
+        margin-top: 20px;
+    }
 }

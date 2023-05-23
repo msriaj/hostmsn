@@ -57,6 +57,23 @@ nav .container-fluid {
 nav .navbar-brand img {
     width: 140px;
 }
+
+nav .navbar-toggler {
+    color: var(--regular-font-color);
+}
+.navbar-toggler-icon {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    vertical-align: auto;
+    background-position: initial;
+    background-size: auto;
+}
+.navbar-toggler:focus {
+    outline: 0 !important;
+    box-shadow: none;
+}
+
 nav ul {
     width: 100%;
     justify-content: flex-end;
