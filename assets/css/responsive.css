@@ -330,4 +330,19 @@
     #questions .qst_item .qst_btn a {
         margin-top: 20px;
     }
+    /* ===============
+    Privacy Page
+    ================ */
+    #privacy {
+        padding: 120px 0 60px 0;
+    }
+    #privacy h2 {
+        font-size: 25px;
+        line-height: 35px;
+        padding-bottom: 25px;
+    }
+    #privacy p {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
 }
