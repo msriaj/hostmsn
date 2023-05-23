@@ -52,8 +52,10 @@ ul li {
 
 /* Nav bar Css Start */
 nav {
+    position: fixed !important;
+    width: 100%;
     background: #fff;
-    padding: 220px 0;
+    z-index: 999;
 }
 nav .container-fluid {
     background: #fff;
@@ -79,6 +81,9 @@ nav .nav-item a {
 nav .nav-item a:hover {
     color: var(--focus-color);
 }
+nav .nav-item a.active {
+    color: var(--focus-color);
+}
 nav .dropdown-menu {
     width: fit-content;
 }
@@ -89,7 +94,7 @@ nav .dropdown-menu li {
 
 /* Banner Css Start */
 #banner {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 #banner h1 {
@@ -112,6 +117,53 @@ nav .dropdown-menu li {
     background-color: #ffffff;
     height: 36px;
     margin-top: -1px;
+}
+
+#banner .banner_btn {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+#banner .banner_btn a {
+    color: var(--prime-color);
+    padding: 14px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: var(--first-transition);
+}
+#banner .banner_btn a.video_btn {
+    border-radius: 50px 0 0 50px;
+    background: #e2498a;
+    position: relative;
+}
+#banner .banner_btn a.video_btn:hover {
+    background: #c2306d;
+}
+#banner .banner_btn a.order_btn {
+    border-radius: 0 50px 50px 0;
+    background: #6a4adc;
+}
+#banner .banner_btn a.order_btn:hover {
+    background: #5433cc;
+}
+
+#banner .banner_btn a.video_btn::before {
+    position: absolute;
+    content: "or";
+    color: var(--regular-font-color);
+    font-size: 12px;
+    background: var(--prime-color);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50%;
+    font-weight: 400;
+    right: -15px;
+    top: 50%;
+    transform: translate(0, -50%);
+    outline: rgba(255, 255, 255, 50%) solid 3px;
 }
 /* ||Banner Css End|| */
 
@@ -613,7 +665,7 @@ footer {
 Privacy Page
 ================ */
 #privacy {
-    padding: 100px 0;
+    padding: 150px 0 100px 0;
 }
 #privacy h2 {
     font-size: 40px;
