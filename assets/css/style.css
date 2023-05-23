@@ -755,3 +755,6 @@ Login Page
     text-align: center;
     text-transform: uppercase;
 }
+#login a.login_btn:hover {
+    background: #af1457;
+}
