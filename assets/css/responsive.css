@@ -63,6 +63,12 @@
     #questions .qst_item p {
         font-size: 20px;
     }
+    /* ===============
+    Login Page
+    ================ */
+    #login svg {
+        height: 100px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     /* Banner responsive */
@@ -135,6 +141,12 @@
     #questions .qst_item p {
         font-size: 18px;
         line-height: 30px;
+    }
+    /* ===============
+    Login Page
+    ================ */
+    #login svg {
+        height: 100px;
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -224,6 +236,12 @@
     #questions .qst_item p {
         font-size: 18px;
         line-height: 30px;
+    }
+    /* ===============
+    Login Page
+    ================ */
+    #login svg {
+        height: 90px;
     }
 }
 @media (max-width: 575.98px) {
@@ -348,5 +366,18 @@
     #privacy p {
         font-size: 15px;
         padding-bottom: 15px;
+    }
+    /* ===============
+    Login Page
+    ================ */
+    #login svg {
+        height: 100px;
+    }
+    #login h2 {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    #login form {
+        width: 95%;
     }
 }
