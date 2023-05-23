@@ -619,7 +619,7 @@ Privacy Page
     font-size: 40px;
     font-weight: 600;
     line-height: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     color: var(--regular-font-color);
     text-align: center;
 }
@@ -629,4 +629,77 @@ Privacy Page
     line-height: 30px;
     color: var(--secondary-font-color);
     padding-bottom: 20px;
+}
+
+/* ===============
+Login Page
+================ */
+#login {
+    position: fixed;
+    inset: 0;
+    background: url(../images/congruent_outline.png);
+    color: var(--prime-color);
+}
+#login svg {
+    height: 150px;
+    width: 100%;
+}
+#login svg path {
+    fill: rgba(255, 255, 255, 50%);
+}
+#login svg.flip_svg {
+    rotate: 180deg;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#login h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-bottom: 25px;
+    color: var(--prime-color);
+    text-align: center;
+}
+#login form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+}
+#login .form_item label {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 60%);
+    padding-bottom: 10px;
+}
+#login .form_item label span {
+    color: red;
+}
+#login .form_item input {
+    width: 100%;
+    background: var(--prime-color);
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+#login .form_item input:focus-visible {
+    outline: none;
+}
+#login a.login_btn {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--prime-color);
+    background: #d92e77;
+    padding: 14px 30px;
+    border-radius: 30px;
+    transition: var(--first-transition);
+    letter-spacing: 1px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
 }
