@@ -95,6 +95,10 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
     }
+    /* Reviews responsive */
+    #reviews img {
+        width: 320px;
+    }
     /* Experience responsive */
     #experience .experience-items {
         margin-top: 0px;
