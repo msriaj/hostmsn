@@ -370,6 +370,9 @@
     /* ===============
     Login Page
     ================ */
+    #login {
+        padding: 10px 0;
+    }
     #login svg {
         display: none;
     }

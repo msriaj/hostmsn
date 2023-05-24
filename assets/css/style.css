@@ -698,6 +698,10 @@ Login Page
 ================ */
 #login {
     position: fixed;
+    overflow-y: auto;
+    transition: var(--first-transition);
+    -ms-overflow-style: none !important;
+    scrollbar-width: none;
     inset: 0;
     background: url(../images/congruent_outline.png);
     color: var(--prime-color);
