@@ -49,6 +49,7 @@ nav {
     width: 100%;
     background: #fff;
     z-index: 999;
+    border-bottom: 1px solid #f0f0f0;
 }
 nav .container-fluid {
     background: #fff;
@@ -798,4 +799,73 @@ Login Page
 }
 #login .another_option a:hover {
     color: #af1457;
+}
+/* ===============
+Payment Page
+================ */
+#payment {
+    padding: 150px 0 100px 0;
+    background: var(--prime-color);
+}
+#payment h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-bottom: 25px;
+    color: var(--regular-font-color);
+}
+#payment img {
+    width: 100%;
+}
+#payment h4 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--regular-font-color);
+}
+#payment p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+    color: var(--regular-font-color);
+}
+#payment h6 {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+    color: var(--regular-font-color);
+}
+#payment h6 span {
+    font-weight: 500;
+}
+#payment .payment_divider_con .payment_divider {
+    width: 20%;
+    height: 1px;
+    background: #d6d5d5;
+}
+#payment .payment_divider_con p {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 20px;
+    color: var(--secondary-font-color);
+}
+#payment .bkash_payment_img img {
+    height: 600px;
+    width: 290px;
+}
+#payment .bkash_number h6 {
+    display: inline-block;
+    padding: 10px 0;
+    border-top: 1px solid var(--secondary-font-color);
+    border-bottom: 1px solid var(--secondary-font-color);
+}
+#payment a {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 35px;
+    color: var(--focus-color);
+    transition: var(--first-transition);
+}
+#payment a:hover {
+    color: #cc552d;
 }
