@@ -371,7 +371,7 @@
     Login Page
     ================ */
     #login svg {
-        height: 100px;
+        display: none;
     }
     #login h2 {
         font-size: 30px;
